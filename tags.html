@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>HTML Tags</title>
         <meta charset="utf-8">
     </head>
     <body>
+        
+        <div>
+            <a href="index.html">Home</a>
+            <a href="moby_dick.html">Moby Dick</a>
+            <a href="tags.html">HTML Tags</a>
+        </div>
+
+        <header>
         <h1>Important HTML tags</h1>
+        </header>
 
         <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jdhancock/3814523970">
         <img  src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
         </a>
 
+        <div>
         <p>
             This page is designed as a quick reference for some of the common tags covered in
             <a href="https://learnenough.com/html"><em>Learn Enough HTML to Be Dangerous</em></a>.
             In ths process of making it, we'll learn how to make HTML <em>tables</em> via 
             <code>table</code> and related tags.
         </p>
+        
 
         <p>
-            The tables below don't include all HTML tags, but they do list many of the most important ones.
+            <span>The tables below</span> don't include all HTML tags, but they do list many of the most important ones.
         </p>
+        </div>
 
+        <header>
         <h2>Block Elements</h2>
+        </header>
 
+        <div>
         <table>
             <tr>
                 <th>Tag</th>
@@ -61,9 +76,13 @@
                 <td>inclue a table data cell</td>
             </tr>
         </table>
+        </div>
 
+        <header>
         <h2>Inline Elements</h2>
+        </header>
 
+        <div>
         <table>
             <tr>
                 <th>Tag</th>
@@ -79,7 +98,86 @@
                 <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
                 <td><em>technical sophistication</em></td>
             </tr>
+            <tr>
+                <td><code>strong</code></td>
+                <td>strong</td>
+                <td>make strong text</td>
+                <td>
+                    <code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code>
+                </td>
+                <td><strong>at least a billion people</strong></td>
+            </tr>
+            <tr>
+                <td><code>a</code></td>
+                <td>anchor</td>
+                <td>make hyperlink</td>
+                <td>
+                    <code>
+                        &lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
+                    </code>
+                </td>
+                <td><a target="_blank" set="noopener" href="https://learnenough.com">Learn Enough</td>
+            </tr>
+            <tr>
+                <td><code>img</code></td>
+                <td>image</td>
+                <td>include an image</td>
+                <td>
+                    <code>
+                        &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+                    </code>
+                </td>
+                <td>
+                    <a href="https://bit.ly/1MZAFuQ"> <img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></a>
+                </td>
+            </tr>
+            <tr>
+                <td><code>code</code></td>
+                <td>code</td>
+                <td>change format</td>
+                <td><code>&lt;code&gt;change format&lt;code&gt;<code></td>
+                <td><code>change format</code></td>
+            </tr>
+            
+            <tr>
+                <td><code>ol</code></td>
+                <td>ordered list</td>
+                <td>create an ordered list</td>
+                <td><code>&lt;ol&gt;<br/>
+                    &lt;li&gt;lol&lt;li&gt;<br/>
+                    &lt;li&gt;lol&lt;li&gt;<br/>
+                    &lt;/ol&gt;</code></td>
+                <td><ol>
+                    <li>lol</li>
+                    <li>lol</li>
+            </ol>
+        </td>
+            </tr>
+
+            <tr>
+                <td><code>ul</code></td>
+                <td>unordered list</td>
+                <td>create an unordered list</td>
+                <td><code>&lt;ul&gt;<br/>
+                    &lt;li&gt;lol&lt;li&gt;<br/>
+                    &lt;li&gt;lol&lt;li&gt;<br/>
+                    &lt;/ul&gt;
+                </code></td>
+                <td><ul>
+                    <li>lol</li>
+                    <li>lol</li>
+                </ul></td>
+            </tr>
+
+            <tr>
+                <td><code>li</code></td>
+                <td>list</td>
+                <td>create a line</td>
+                <td>&lt;li&gt;list&lt;li&gt;</td>
+                <td><li>list</li></td>
+            </tr>
         </table>
+        </div>
 
     </body>
 </html>
